@@ -1,0 +1,8 @@
+[
+    { "ProductId": 1, "ProductName": "HP", "ProductSubName": "HP 15q-BU004TU 2017 15.6-inch Laptop (6th Gen Core i3-6006U/4GB/1TB/Free DOS/Integrated Graphics), Grey", "ProductImgURL": "v1/gallery/images/laptop_1.jpg", "ProductPrice": 65, "ProductDescription": "" },
+    { "ProductId": 2, "ProductName": "DELL", "ProductSubName": "Dell Vostro 3568 15.6-inch Laptop (7th Gen Core i5-7200/8GB/1TB/Windows 10 Home/2GB Graphics), Black", "ProductImgURL": "v1/gallery/images/laptop_2.jpg", "ProductPrice": 58, "ProductDescription": "" },
+    { "ProductId": 3, "ProductName": "LENOVO", "ProductSubName": "Lenovo Ideapad 110 80T70015IH 15.6-inch Laptop (Pentium N3710/4GB/1TB/DOS/Integrated Graphics)", "ProductImgURL": "v1/gallery/images/laptop_3.jpg", "ProductPrice": 48, "ProductDescription": "" },
+    { "ProductId": 4, "ProductName": "APPLE", "ProductSubName": "Apple MacBook Air MQD32HN/A 13.3-inch Laptop 2017 (Core i5/8GB/128GB/MacOS Sierra/Integrated Graphics)", "ProductImgURL": "v1/gallery/images/laptop_4.jpg", "ProductPrice": 52, "ProductDescription": "" },
+    { "ProductId": 5, "ProductName": "ACER", "ProductSubName": "Acer Aspire 3 A315-51-356P UN.GNPSI.001 15.6-inch Laptop (Core i3-6006U/4GB/1TB/Windows 10/Integrated Graphics), Obsidian Black", "ProductImgURL": "v1/gallery/images/laptop_5.jpg", "ProductPrice": 99, "ProductDescription": "" }
+
+]
