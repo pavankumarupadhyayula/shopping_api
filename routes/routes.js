@@ -20,9 +20,9 @@ router.get('/mobiles', (req, res) => {
 //REST api for 
 router.post('/prepayment', (req, res) => {
 
-    console.log(req.body);
+    console.log(req.body.order.clientId);
     store.set(req.body.clientId, req.body);
-    res.send(req.body.clientId);
+    res.send(req.body.order.clientId);
 
 
 });
