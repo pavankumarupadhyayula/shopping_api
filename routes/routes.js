@@ -4,7 +4,8 @@ const express = require('express'),
     store = require('store'),
     watchesDatabse = require('./../database/watches'),
     mobilesDatabase = require('./../database/mobiles'),
-    laptopsDatabase = require('./../database/laptops');
+    laptopsDatabase = require('./../database/laptops'),
+    storage = require('./../database/storage');
 
 //REST api for watches
 router.get('/watches', (req, res) => {
@@ -20,11 +21,20 @@ router.get('/mobiles', (req, res) => {
 //REST api for 
 router.post('/prepayment', (req, res) => {
 
-    console.log(req.body.order.clientId);
-    store.set(req.body.clientId, req.body);
-    res.send(req.body.order.clientId);
+    storage(req.body, (err, success) => {
 
+        if (err) {
 
+        } else {
+            res.status(200).send({ clientId: success['clientId'] });
+        }
+
+    });
+});
+
+//REST api for 
+router.get('/cart', (req, res) => {
+    res.send(store.get('database'));
 });
 
 //REST api for laptops
