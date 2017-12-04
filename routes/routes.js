@@ -67,6 +67,14 @@ router.get('/product/price/:productType/:productName', (req, res, next) => {
 });
 
 
+router.post('/products/price', (req, res, next) => {
+
+    let items = req.body;
+    console.log(items);
+
+});
+
+
 
 let fetchdata = function(object, productName, cb) {
     let fetchObject;
