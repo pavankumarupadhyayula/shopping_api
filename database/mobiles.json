@@ -1,8 +1,8 @@
 [
-    { "ProductId": 1, "ProductName": "SAMSUNG", "ProductSubName": "Samsung Galaxy J7 Prime", "ProductImgURL": "v1/gallery/images/mobile_1.jpg", "ProductPrice": 65, "ProductDescription": "" },
-    { "ProductId": 2, "ProductName": "MOTOROLA", "ProductSubName": "Motorola Moto G Turbo", "ProductImgURL": "v1/gallery/images/mobile_2.jpg", "ProductPrice": 58, "ProductDescription": "" },
-    { "ProductId": 3, "ProductName": "SONY", "ProductSubName": "Sony Xperia L1", "ProductImgURL": "v1/gallery/images/mobile_3.jpg", "ProductPrice": 48, "ProductDescription": "" },
-    { "ProductId": 4, "ProductName": "HTC", "ProductSubName": "HTC Desire 10 Pro", "ProductImgURL": "v1/gallery/images/mobile_4.jpg", "ProductPrice": 52, "ProductDescription": "" },
-    { "ProductId": 5, "ProductName": "LYF", "ProductSubName": "Lyf Flame 7", "ProductImgURL": "v1/gallery/images/mobile_5.jpg", "ProductPrice": 99, "ProductDescription": "" }
+    { "ProductId": 1, "ProductName": "SAMSUNG", "ProductSubName": "Samsung Galaxy J7 Prime", "ProductImgURL": "gallery/images/mobile_1.jpg", "ProductPrice": 65, "ProductDescription": "" },
+    { "ProductId": 2, "ProductName": "MOTOROLA", "ProductSubName": "Motorola Moto G Turbo", "ProductImgURL": "gallery/images/mobile_2.jpg", "ProductPrice": 58, "ProductDescription": "" },
+    { "ProductId": 3, "ProductName": "SONY", "ProductSubName": "Sony Xperia L1", "ProductImgURL": "gallery/images/mobile_3.jpg", "ProductPrice": 48, "ProductDescription": "" },
+    { "ProductId": 4, "ProductName": "HTC", "ProductSubName": "HTC Desire 10 Pro", "ProductImgURL": "gallery/images/mobile_4.jpg", "ProductPrice": 52, "ProductDescription": "" },
+    { "ProductId": 5, "ProductName": "LYF", "ProductSubName": "Lyf Flame 7", "ProductImgURL": "gallery/images/mobile_5.jpg", "ProductPrice": 99, "ProductDescription": "" }
 
 ]
