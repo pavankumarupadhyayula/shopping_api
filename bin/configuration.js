@@ -1,5 +1,5 @@
 'use strict';
 module.exports = {
     defaultEnv: 'local',
-    defaultPort: '80'
+    defaultPort: process.env.PORT || 80
 }

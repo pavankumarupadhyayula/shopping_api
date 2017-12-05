@@ -5,7 +5,7 @@ const express = require('express'),
     config = require('./../bin/configuration');
 
 // port
-app.set('PORT', config.defaultPort);
+app.set('PORT', process.env.PORT || config.defaultPort);
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -14,10 +14,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 
-app.use('/v1/gallery', express.static('public'));
+app.use('/gallery', express.static('public'));
 
 //GET Apis....
-app.use('/v1', require('./../routes/routes'));
+app.use('/', require('./../routes/routes'));
 
 
 
